@@ -56,7 +56,7 @@ async function main(){
    console.log(receipt);
    
    const receiptTx = await provider.waitForTransaction(txHash);
-   // console.log("✅ Transaction mined! Receipt:", receiptTx);
+   // console.log("Transaction mined! Receipt:", receiptTx);
 
    const tx = {
       to: "0x17FB36F4FC9F35f3F433cE888fAaf58E440806Eb", // Receiver's address
